@@ -1,0 +1,93 @@
+
+ #taille a {
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px #ebebeb dashed;
+  }
+  
+  #texte {
+    margin-top: 30px;
+    font-size: 7px;
+  }
+  
+  #taille {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  #couleur a {
+    /* margin-left: 4px; */
+    padding: 5px 8px;
+    display: inline;
+    align-items: left;
+  }
+
+  #couleurs a {
+    /* margin-left: 4px; */
+    padding: 5px 8px;
+    display: inline;
+    align-items: left;
+  }
+  
+  #noir {
+    background-color: #000;
+    color: #000;
+  }
+  
+  #rouge {
+    background-color: #FF0000;
+    color: #FF0000;
+  }
+  
+  #vert {
+    background-color: #00FF00;
+    color: #00FF00;
+  }
+  
+  #bleu {
+    background-color: #0000FF;
+    color: #0000FF;
+  }
+  
+  #rose {
+    background-color: #FF00FF;
+    color: #FF00FF;
+  }
+  
+  #jaune {
+    background-color: #FFFF00;
+    color: #FFFF00;
+  }
+  
+  #cyan {
+    background-color: #00FFFF;
+    color: #00FFFF;
+  }
+  #gris{
+    background-color:#808080;
+    color: #808080;
+  }
+  #violet{
+    background-color:#800080;
+    color: #800080;
+  }
+  #blanc{
+    background-color:#FFFFFF;
+    color: #FFFFFF;
+  }
+  #AliceBlue{
+    background-color:#F0F8FF;
+    color: #F0F8FF;
+  }
+  #FireBrick{
+    background-color:#B22222;
+    color: #B22222;
+  }
+  #blueciel{
+    background-color:#00ffff;
+    color: #00ffff;
+  }
+  #bluecalm{
+    background-color:#00bfff;
+    color: #00bfff;
+  }

@@ -1,0 +1,52 @@
+.btn {
+    position: relative;
+    display: inline-block;
+    width: 186px;
+    height: 77px;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    margin: 1rem;
+    transition: 0.5s;
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
+.btn-effect-9 {
+    position: relative;
+    transform-style: preserve-3d;
+    border-radius: 0;
+  }
+  
+  .btn-effect-9 .top-face,
+  .btn-effect-9 .front-face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .btn-effect-9 .front-face {
+    transform: translateZ(38.5px);
+    background-color: #fff;
+  }
+  
+  .btn-effect-9 .top-face {
+    background-color: #343434;
+    color: #f3f3f3;
+    transform: rotateX(90deg) translateZ(38.5px);
+  }
+  
+  .btn-effect-9:hover {
+    transform: rotateX(-90deg);
+    transition: 0.5s ease-in-out;
+  }
